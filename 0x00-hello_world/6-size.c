@@ -1,5 +1,8 @@
 #include <stdio.h>
-
+/*	*	*
+ *	*	*main-Entry
+ *	*	*
+ *	**/
 int main(void)
 {
 	int a;
