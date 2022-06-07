@@ -1,9 +1,7 @@
 #include<stdio.h>
-/*	*	*
+/**
  *	*Start code
- *	*	*
- *	*Return always 0 (Success)
- *	*	*
+ *	*Return always 0 (Success) 
  **/
 int main()
 {
