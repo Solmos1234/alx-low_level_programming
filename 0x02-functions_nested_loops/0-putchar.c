@@ -3,9 +3,15 @@
  *	*Start code
  *	*Return	0 (Success) 
  **/
-int main(void)#initialization
+int main(void)
+/**
+ *	*Initialization
+ **/
 {
 	printf("_putchar\n");
-		return (0);#returns	0	(<F9>success)
+		return (0);
+/**
+ *	*Return 0 (success)
+ **/
 
 }
