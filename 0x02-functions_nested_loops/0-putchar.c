@@ -1,9 +1,9 @@
 #include<stdio.h>
 /**
  *	*Start code
- *	*Return always 0 (Success) 
+ *	*Return	always	0	(Success) 
  **/
-int main()
+int main(void)
 {
 	printf("_putchar\n");
 		return (0);
