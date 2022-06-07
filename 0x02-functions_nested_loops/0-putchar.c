@@ -1,10 +1,11 @@
 #include<stdio.h>
 /**
  *	*Start code
- *	*Return	always	0	(Success) 
+ *	*Return	0 (Success) 
  **/
-int main(void)
+int main(void)#initialization
 {
 	printf("_putchar\n");
-		return (0);
+		return (0);#returns	0	(<F9>success)
+
 }
