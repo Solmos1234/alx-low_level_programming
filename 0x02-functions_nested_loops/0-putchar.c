@@ -1,17 +1,19 @@
 #include<stdio.h>
 /**
- *	*Start code
- *	*Return	0 (Success) 
- **/
+*	*Start code
+*	*Return	0 (Success) 
+**/
 int main(void)
 /**
- *	*Initialization
- **/
+*	*small
+*	*Initialization
+**/
 {
 	printf("_putchar\n");
 		return (0);
 /**
- *	*Return 0 (success)
- **/
+*	*desription
+*	*Return 0 (success)
+**/
 
 }
