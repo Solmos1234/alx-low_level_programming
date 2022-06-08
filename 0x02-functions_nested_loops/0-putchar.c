@@ -1,6 +1,5 @@
 #include<stdio.h>
 /**
-*
 *Start code
 *Return	0 (Success)
 *small description
@@ -8,16 +7,9 @@
 */
 int main(void)
 /**
-*
-*small
-*Initialization
+*description : code excution start point
 */
 {
 	printf("_putchar\n");
 		return (0);
-/**
-*	*desription
-*	*Return 0 (success)
-**/
-
 }
