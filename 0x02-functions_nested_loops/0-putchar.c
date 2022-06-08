@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
-* 
+*
 *Start code
 *Return	0 (Success)
 *small description
@@ -8,7 +8,7 @@
 */
 int main(void)
 /**
-* 
+*
 *small
 *Initialization
 */
