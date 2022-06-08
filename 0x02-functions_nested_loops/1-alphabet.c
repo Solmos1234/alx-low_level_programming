@@ -1,16 +1,16 @@
-#include<stdio.h>
+#include"main.h"
 /**
-* main - check the code
+* main - check the code for Holberton School students.
 *
-* Return: Always 0
+* Return: Always 0 (Success)
 */
-int main()
+void print_alphabet(void)
 {
-	char ch;
-	printf("Lowercase letters\n");
-	for (ch ='a'; ch<='z'; ch++)
+	int i;
+
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		printf("%c", ch);
+		_putchar(i);
 	}
-	return 0;
+	_putchar('\n');
 }
