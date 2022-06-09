@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
-*print_alphabet - prints lowercase letters
+*_putchar - prints lowercase letters
 *
 *main: check the code for Holberton School student
 *Return: Always 0 (Success)
