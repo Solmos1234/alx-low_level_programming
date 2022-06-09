@@ -1,6 +1,5 @@
 #include<stdio.h>
-/**
-*This is code prints putchar 
+/** 
 *main: this is where execution starts
 *Return: Always 0 (success)
 */
