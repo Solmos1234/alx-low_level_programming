@@ -1,12 +1,12 @@
 #include<stdio.h>
 /**
-*Coding : fun
+*main : this is where execution starts
 *Return : Always 0 (success)
 */
 int main(void)
 /**
-*Main : execution starts
-*Return : 0 (Success)
+*main : execution starts
+*return : 0 (Success)
 *description for return
 */
 {
