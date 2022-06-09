@@ -1,4 +1,4 @@
-#include"main.h"
+#include<stdio.h>
 /**
 *print_alphabet - prints lowercase letters
 *
@@ -6,7 +6,7 @@
 *Return: Always 0 (Success)
 */
 
-void print_alphabet(void)
+void _putchar()
 {
 	int i;
 	for (i = 'a'; i <= 'z'; i++)
