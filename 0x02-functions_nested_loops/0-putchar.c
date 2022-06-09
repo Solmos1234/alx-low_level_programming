@@ -1,6 +1,5 @@
 #include<stdio.h>
 /**
-*Initial : Program starts here 
 *Coding : fun
 *Return : Always 0 (success)
 */
