@@ -1,17 +1,12 @@
-#include<stdio.h>
+#include"main.h"
 /**
-*_putchar - prints lowercase letters
+*main - check the code
 *
-*main: check the code for Holberton School student
-*Return: Always 0 (Success)
+*Return: Always 0.
 */
 
-void _putchar()
+int main(void)
 {
-	int i;
-	for (i = 'a'; i <= 'z'; i++)
-	{
-		_putchar(i);
-	}
-	_putchar("\n");
+	print_alphabet();
+	return (0);
 }
