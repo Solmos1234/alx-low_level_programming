@@ -8,11 +8,17 @@
 */
 int main (void)
 {
-	char ch = 'A';
+	char c;
 
-	if (isupper(ch))
-		printf("\nEntered character is uppercase character");
-	else
-		printf("\nEntered character is not uppercase");
+	c = 'A';
+	if (isupper(c))
+	{
+		printf("\nA is uppercase");
+	}
+	c = 'a';
+	if (isupper(c))
+	{
+		printf("\na is lowercase");
+	}
 	return (0);
 }
