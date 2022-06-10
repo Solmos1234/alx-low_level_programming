@@ -11,14 +11,8 @@ int main (void)
 	char c;
 
 	c = 'A';
-	if (isupper(c))
-	{
-		printf("\nA is uppercase");
-	}
+	printf("%c: %d\n", c, _isupper(c));
 	c = 'a';
-	if (isupper(c))
-	{
-		printf("\na is lowercase");
-	}
+	printf("%c: %d\n", c, _isupper(c));
 	return (0);
 }
