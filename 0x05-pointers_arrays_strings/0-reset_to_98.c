@@ -8,13 +8,11 @@
 int main(void)
 {
 	int n;
-	int  *p;
 
-	n = 40;
-	p = &n;
-	printf("value of n is %d\n", n);
-	printf("value of p is %p\n", p);
-	*p = 98;
-	printf("the value of n is %d\n", n);
+	n = 402;
+	printf("n = %d\n", n);
+	reset_to_98(&n);
+	*n = 98;
+	printf("n = %d\n", n);
 	return (0);
 }
