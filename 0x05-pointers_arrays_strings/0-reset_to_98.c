@@ -1,11 +1,11 @@
 #include "main.h"
-#include <stdioh>
+#include <stdio.h>
 /**
 *main-check the code
 *
 *Return: Always 0.
 */
-int_putchar(char);
+int _putchar(char s);
 void reset_to_98(int *n);
 
 int main()
