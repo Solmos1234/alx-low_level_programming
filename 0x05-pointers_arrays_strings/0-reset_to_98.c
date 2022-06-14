@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
-void reset_to_98(int *n);
-int _putchar(char s);
+void reset_to_98(int *);
+int _putchar(char);
 /**
 *main-check the code
 *
