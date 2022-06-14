@@ -5,7 +5,7 @@
 *
 *Return: Always 0.
 */
-int _putchar(char s);
+int _putchar(int n);
 void reset_to_98(int *n);
 
 int main()
