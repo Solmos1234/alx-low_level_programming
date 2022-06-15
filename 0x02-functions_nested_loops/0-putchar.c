@@ -14,6 +14,8 @@ int main(void)
 *main - prints putchar
 *Return: Always 0 Success
 */
+	{
 	_putchar("_putchar\n");
 		return (0);
+	}
 }
