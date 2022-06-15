@@ -6,14 +6,13 @@
 int main(void)
 /**
 *main - execution starts
-*return: 0 (Success)
-*description for return
+*return:Always 0 (Success)
 */
 {
 /**
 *main - prints putchar
 *Return: Always 0 Success
 */
-	printf("_putchar\n");
+	_putchar("_putchar\n");
 		return (0);
 }
