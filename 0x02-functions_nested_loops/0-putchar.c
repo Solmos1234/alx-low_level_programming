@@ -7,9 +7,12 @@
 int main(void)
 
 {
+	void _putchar(void);
 	char n;
 	n = "_putchar";
+	{
 	_putchar(n);
 	_putchar('\n');
 	return (0);
+	}
 }
