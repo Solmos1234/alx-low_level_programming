@@ -4,18 +4,8 @@
 *main - this is where execution starts
 *Return: Always 0 (success)
 */
-void _putchar(void);
 int main(void)
-/**
-*main - execution starts
-*return:Always 0 (Success)
-*/
 {
-/**
-*main - prints putchar
-*Return: Always 0 Success
-*/
-	void _putchar()
 	{
 		_putchar("_putchar\n");
 		return (0);
