@@ -5,7 +5,10 @@
 *
 *Retur: Always (Success)
 */
-int main(void)
+int main(voi)
+/**
+*main - where execution starts
+*/
 {
 	int c, i, k;
 
