@@ -4,7 +4,7 @@
 *main - this is where execution starts
 *Return: Always 0 (success)
 */
-void _putchar(void);
+void _putchar(char);
 int main(void)
 /**
 *main - execution starts
@@ -16,5 +16,5 @@ int main(void)
 *Return: Always 0 Success
 */
 	_putchar("_putchar\n");
-		return (0);
+		return (void);
 }
