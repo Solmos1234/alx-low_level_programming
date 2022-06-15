@@ -1,13 +1,12 @@
-#include<stdio.h>
 #include "main.h"
+#include<stdio.h>
 /**
 *main - this is where execution starts
 *Return: Always 0 (success)
 */
+int _putchar(char n);
 int main(void)
-
 {
-	void _putchar(void);
 	char n;
 	n = "_putchar";
 	{
