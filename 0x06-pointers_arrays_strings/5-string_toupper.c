@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-*string_toupper - changes lowercase to upper
-*@p: String will be modified
+*string_toupper - changes lowercase to uppercase
+*@p: the string shall be modified
 *
 *Return: char var
 */
