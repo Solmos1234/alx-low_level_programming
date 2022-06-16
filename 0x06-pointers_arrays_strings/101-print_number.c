@@ -8,14 +8,35 @@
  */
 void print_number(int n)
 {
-unsigned int x;
-if (n < 0)
+long m;
+int c;
+long num;
+num = n;
+if (num < 0)
 {
+num *= -1;
 _putchar('_');
-n *= -1;
 }
-x = n;
-if (x / 10);
-print_number(x / 10);
-_putchar(x % 10 + '0');
+m = 1;
+c = 1;
+while (c)
+{
+if (num / (m * 10) > 0)
+m *= 10;
+else
+c = 0;
+}
+while (num >= 0)
+{
+if (m == 1)
+{
+_putchar(num % 10 + '0');
+num = -1;
+}
+else
+{
+_putchar((num / m % 10) + '0');
+m /= 10;
+}
+}
 }
