@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
-*_strcat - combines two strings
-*@dest: string destination
-*@src: Is the source string
+* _strcat - combines two strings
+* @dest: string destination
+* @src: Is the source string
 *
-*Return: A pointer to dest
+* Return: A pointer to dest
 */
 char *_strcat(char *dest, char *src)
 {
