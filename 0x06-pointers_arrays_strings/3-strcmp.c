@@ -1,8 +1,9 @@
 #include "main.h"
+
 /**
  *_strcmp - compares two strings
- *@s1: string one
- *@s2: string two
+ *@s1: the first string
+ *@s2: string number two
  *
  *Return: int value
  */
@@ -27,7 +28,7 @@ lim = b;
 }
 while (c <= lim)
 {
-if (s1[c] - s2[c])
+if (s1[c] == s2[c])
 {
 c++;
 continue;
