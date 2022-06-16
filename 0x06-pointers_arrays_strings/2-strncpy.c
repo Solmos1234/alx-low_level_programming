@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *strncpy - copying string
+ *_strncpy - copying string
  *@dest: Destination value
  *@src: source value
  *@n: copying limit
