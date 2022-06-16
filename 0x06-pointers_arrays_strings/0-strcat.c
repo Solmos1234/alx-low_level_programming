@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 /**
- * _strcat - combines two strings
- * @dest: Destination string
- * @src: The source string
- *
- * Return: A pointer to the resulting string dest
- */
+*_strcat - combines two strings
+*@dest: Destination string
+*@src: The source string
+*
+*Return: A pointer to the resulting string dest
+*/
 char *_strcat(char *dest, char *src)
 {
 	int dlen = 0, i;
