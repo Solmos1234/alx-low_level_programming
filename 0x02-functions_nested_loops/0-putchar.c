@@ -5,7 +5,7 @@
  *
  *Return: Always 0 (success)
  */
-char _putchar(char *sh)
+int _putchar(char *sh)
 {
 char *sh = "_putchar";
 while (*sh)
