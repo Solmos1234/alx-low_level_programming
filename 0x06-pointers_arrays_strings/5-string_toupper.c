@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- *string_toupper - changes lowercase to upper
- *@p: String will be modified
- *
- *Return: char var
- */
+*string_toupper - changes lowercase to upper
+*@p: String will be modified
+*
+*Return: char var
+*/
 char *string_toupper(char *p)
 {
 int a = 0;
