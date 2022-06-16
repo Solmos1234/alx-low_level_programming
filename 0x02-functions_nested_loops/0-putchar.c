@@ -13,7 +13,7 @@ while (*sh)
 _putchar(*sh);
 sh++;
 }
-_putchar('\sh');
+_putchar('\n');
 
 return (0);
 }
