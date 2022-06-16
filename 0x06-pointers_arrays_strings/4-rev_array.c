@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- *reverse_array - reverses the contents of integer arrays
- *@a: Array of integers
- *@n: Number of swap elements
- *Return: empty
- */
+*reverse_array - reverses the contents of integer arrays
+*@a: Array of integers
+*@n: Number of swap elements
+*Return: empty
+*/
 void reverse_array(int *a, int n)
 {
 	int *p, i, temp;
