@@ -1,6 +1,4 @@
-#include <stdio.h>
 # include "main.h"
-
 /**
  * _strncat - combines two strings
  * @dest: final value
@@ -17,6 +15,7 @@ while (dest[dlen])
 dlen++;
 }
 while (j < n && src[j])
+{
 dest[dlen] = src[j];
 dlen++;
 j++;
