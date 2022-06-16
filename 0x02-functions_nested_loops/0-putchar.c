@@ -5,15 +5,15 @@
  *
  *Return: Always 0 (success)
  */
-int main(void)
+char _putchar(char *sh)
 {
-char *n = "_putchar";
-while (*n)
+char *sh = "_putchar";
+while (*sh)
 {
-_putchar(*n);
-n++;
+_putchar(*sh);
+sh++;
 }
-_putchar('\n');
+_putchar('\sh');
 
 return (0);
 }
