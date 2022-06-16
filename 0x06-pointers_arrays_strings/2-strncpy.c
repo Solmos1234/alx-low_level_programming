@@ -1,13 +1,12 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * strncpy - copying string
- * @dest: Destination value
- * @src: source value
- * @n: copying limit
+ *strncpy - copying string
+ *@dest: Destination value
+ *@src: source value
+ *@n: copying limit
  *
- * Return: char value
+ *Return: char value
  */
 char *_strncpy(char *dest, char *src, int n)
 {
