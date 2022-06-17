@@ -1,8 +1,9 @@
 #include "main.h"
+
 /**
  *print_sign - function that prints sign of a number
- *@n: input number
- *Return: 1 prints + if n > 0, if n = 0, -1 prints '_' if n < 0
+ *@n: number being nested
+ *Return: Always 0.
  */
 int print_sign(int n)
 {
