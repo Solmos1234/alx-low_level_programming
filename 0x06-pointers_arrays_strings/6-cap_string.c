@@ -1,26 +1,17 @@
 #include "main.h"
 
 /**
- *cap_string - ...
- *@s: ...
- *
- *Return: Char value
+ *cap_string - capitalizes strings
+ *@s: Is a string
+ *Return: string.
  */
 char *cap_string(char *s)
 {
-int a = 0, i;
-int cspc = 13;
-char spc[] = {32, '\t', '\n', 44, ';', 46, '!', '?', '"', '(', ')', '{', '}',};
-while (s[a])
-{
+int i;
 i = 0;
-while (i < cspc)
+while(s[i] != '\0')
 {
-if ((a == 0 || s[a - 1] == spc[i]) && (s[a] >= 97 && bs[a] <= 122))
-s[a] -= 32;
-i++;
-}
-a++;
+if ((s[i - 1] == ' ' || s[i - 1] == '\n' || s[i - 1] =='\t' || s[i -1] == ',' || s[i - 1] == ';' || s[i - 1] == '!' || s[i - 1] == '?' || s[i -1] == '"' || s[i - 1] == 
 }
 return (s);
 }
