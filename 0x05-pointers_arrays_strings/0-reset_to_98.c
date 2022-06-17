@@ -1,19 +1,13 @@
 #include "main.h"
-#include <stdio.h>
-void reset_to_98(int *);
-int _putchar(char n);
+
 /**
-*main-check the code
-*
-*Return: Always 0.
-*/
-
-int main()
+ *reset_to_98 - function with one argument
+ *@n: int tpye pointer n
+ *
+ *Description: using pointer parameter to update
+ *Return: value
+ */
+void reset_to_98(int *n)
 {
-	int n;
-
-	n = 402;
-	_putchar("n=%d\n", n);
-	reset_to_98(&n);
-	return (0);
+*n = 98;
 }
