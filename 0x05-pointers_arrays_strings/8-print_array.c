@@ -1,7 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 
-/**print_array - To print array
+/**
+ *print_array - To print array
  *@a: array to be printed
  *@n: length of array
  */
