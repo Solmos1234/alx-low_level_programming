@@ -2,28 +2,27 @@
 /**
  *print_triangle - aligned right
  *@size: triangle size
+ :Return: void
  */
 void print_triangle(int size)
 {
-int c, i, j;
-c = 0;
-i = size - 1;
-while (c < size)
+int i;
+int x;
+int spaces;
+for (i = 0; i < size; i++)
 {
-i = size - 1 - c;
-j = c + 1;
-while (i > 0)
+for (spaces = size - 1 - i; spaces > 0; spaces--)
 {
 _putchar(' ');
-i--;
 }
-while (j > 0)
+for (x = 0; x <= i; x++)
+{
 _putchar('#');
-j--;
 }
 _putchar('\n');
-c++;
 }
-if (size <= o)
+if (size <= 0)
+{
 _putchar('\n');
+}
 }
