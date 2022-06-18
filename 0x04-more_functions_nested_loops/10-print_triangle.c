@@ -2,7 +2,7 @@
 /**
  *print_triangle - aligned right
  *@size: triangle size
- :Return: void
+ *Return: void
  */
 void print_triangle(int size)
 {
