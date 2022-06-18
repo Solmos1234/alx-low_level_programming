@@ -5,7 +5,7 @@
  *@s: Is a string
  *Return: string.
  */
-char *cap_string(char *)
+char *cap_string(char *s)
 {
 int i;
 i = 0;
